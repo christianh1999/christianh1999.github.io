@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+}
+
+.home {
+  height: 100%;
+  background-color: #1b1b1b;
+}
+
+.cj {
+  height: 200px;
+}
+
+.projects {
+  height: 100%;
+  background-color: #ededed;
+}
+
+.links {
+  display: flex;
+  margin-right: 3rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  outline: none;
+  color: #989898;
+  margin: 0 3rem;
+  font-size: 24px;
+}
+
+.links li {
+  list-style: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.active {
+  color: #ededed;
+}
+
+.name {
+  color: #ededed;
+  font-weight: 500;
+  font-size: 45px;
+}
+
+.subName {
+  color: #ededed;
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.about-link {
+  color: #ededed;
+  font-weight: lighter;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.main {
+  padding: 2rem 10rem;
+  margin-top: 5rem;
+}
+
+.surname,
+.subSubName {
+  margin-bottom: 1rem;
+}
+
+.icon {
+  height: 38px;
+  margin-right: 1.5rem;
+}
+
+.icons {
+  margin-top: 15rem;
+}
+
+.brazz {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.ads {
+  position: absolute;
+  top: 40%;
+  right: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.ad {
+  margin-bottom: 1rem;
+}
